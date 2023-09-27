@@ -91,8 +91,9 @@ struct ContentView: View {
                         
                     }
                     Image("logo2")
+                    
                         .resizable()
-                        .frame(width: 170, height: 130)
+                        .frame(width: 171, height: 130)
                         .offset(y: -185)
                     
                     Text("RoyaleConnect")
