@@ -74,13 +74,13 @@ struct ContentView: View {
                             .border(.red, width: CGFloat(wrongPassword))
                             .padding()
                         
-                        Text("Clash royale #: ")
+                        Text("PlayerTag: ")
                             .foregroundColor(.white)
-                            .offset(x: -99)
+                            .offset(x: -110)
                             .font(.subheadline)
                             .bold()
                         
-                        TextField("Clash royale Tag#", text: $clashTag)
+                        TextField("PlayerTag#", text: $clashTag)
                             .padding()
                             .frame(width: 300, height: 50)
                             .background(Color.white.opacity(1))
