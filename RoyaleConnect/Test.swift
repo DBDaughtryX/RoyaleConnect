@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Test.swift
 //  RoyaleConnect
 //
 //  Created by Dillon Borden on 9/27/23.
@@ -7,17 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    
-    
+struct Test: View {
     var body: some View {
-        Text("Test")
+        Text("Bleh")
     }
-
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Test_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Test()
     }
 }
