@@ -80,9 +80,9 @@ struct ContentView: View {
                             .padding()
                             .padding()
                         
-                        Text("Username: ")
+                        Text("Email:  ")
                             .foregroundColor(.white)
-                            .offset(x: -100, y: 10)
+                            .offset(x: -120, y: 10)
                         
                         TextField("Email", text: $email)
                             .padding()
@@ -106,12 +106,6 @@ struct ContentView: View {
                             .cornerRadius(10)
                             .border(.red, width: CGFloat(wrongPassword))
                             .padding()
-                        
-                        Text("PlayerTag: ")
-                            .foregroundColor(.white)
-                            .offset(x: -110)
-                            .font(.subheadline)
-                            .bold()
                         
                         
                         

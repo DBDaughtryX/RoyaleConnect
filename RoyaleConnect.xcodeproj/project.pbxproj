@@ -22,6 +22,9 @@
 		864C4C882AC600BF0091F7D2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 864C4C872AC600BF0091F7D2 /* FirebaseFirestore */; };
 		864C4C8A2AC6058C0091F7D2 /* Lobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C892AC6058C0091F7D2 /* Lobby.swift */; };
 		864C4C8C2AC615F40091F7D2 /* ProfileBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C8B2AC615F40091F7D2 /* ProfileBackground.swift */; };
+		864C4C902AC6466A0091F7D2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 864C4C8F2AC6466A0091F7D2 /* FirebaseStorage */; };
+		864C4C922AC673C70091F7D2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C912AC673C60091F7D2 /* UserData.swift */; };
+		864C4C962AC696010091F7D2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C952AC696010091F7D2 /* SettingsView.swift */; };
 		864E5FC02AC4A577008F462D /* RoyaleConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E5FBF2AC4A577008F462D /* RoyaleConnectApp.swift */; };
 		864E5FC22AC4A577008F462D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E5FC12AC4A577008F462D /* ContentView.swift */; };
 		864E5FC42AC4A578008F462D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864E5FC32AC4A578008F462D /* Assets.xcassets */; };
@@ -38,6 +41,8 @@
 		864C4C792AC5E8360091F7D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		864C4C892AC6058C0091F7D2 /* Lobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lobby.swift; sourceTree = "<group>"; };
 		864C4C8B2AC615F40091F7D2 /* ProfileBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBackground.swift; sourceTree = "<group>"; };
+		864C4C912AC673C60091F7D2 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		864C4C952AC696010091F7D2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		864E5FBC2AC4A577008F462D /* RoyaleConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyaleConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		864E5FBF2AC4A577008F462D /* RoyaleConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoyaleConnectApp.swift; sourceTree = "<group>"; };
 		864E5FC12AC4A577008F462D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +59,7 @@
 				864C4C862AC600AA0091F7D2 /* FirebaseAuth in Frameworks */,
 				864C4C802AC5F71B0091F7D2 /* FirebaseAnalyticsSwift in Frameworks */,
 				864C4C822AC5F72A0091F7D2 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				864C4C902AC6466A0091F7D2 /* FirebaseStorage in Frameworks */,
 				864C4C7D2AC5E8B50091F7D2 /* FirebaseAnalytics in Frameworks */,
 				864C4C882AC600BF0091F7D2 /* FirebaseFirestore in Frameworks */,
 			);
@@ -95,6 +101,8 @@
 				864E5FC12AC4A577008F462D /* ContentView.swift */,
 				864C4C732AC5AD1A0091F7D2 /* ClanStats.swift */,
 				864C4C892AC6058C0091F7D2 /* Lobby.swift */,
+				864C4C912AC673C60091F7D2 /* UserData.swift */,
+				864C4C952AC696010091F7D2 /* SettingsView.swift */,
 				864C4C752AC5B12F0091F7D2 /* ImagePicker.swift */,
 				864C4C6F2AC5AB9E0091F7D2 /* FriendListView.swift */,
 				864C4C692AC4E6890091F7D2 /* SignUpView.swift */,
@@ -137,6 +145,7 @@
 				864C4C832AC5F7320091F7D2 /* FirebaseDatabaseSwift */,
 				864C4C852AC600AA0091F7D2 /* FirebaseAuth */,
 				864C4C872AC600BF0091F7D2 /* FirebaseFirestore */,
+				864C4C8F2AC6466A0091F7D2 /* FirebaseStorage */,
 			);
 			productName = RoyaleConnect;
 			productReference = 864E5FBC2AC4A577008F462D /* RoyaleConnect.app */;
@@ -201,9 +210,11 @@
 				864C4C702AC5AB9E0091F7D2 /* FriendListView.swift in Sources */,
 				864C4C8C2AC615F40091F7D2 /* ProfileBackground.swift in Sources */,
 				864C4C762AC5B1300091F7D2 /* ImagePicker.swift in Sources */,
+				864C4C922AC673C70091F7D2 /* UserData.swift in Sources */,
 				864C4C6E2AC5AB010091F7D2 /* ChatRoomView.swift in Sources */,
 				864C4C8A2AC6058C0091F7D2 /* Lobby.swift in Sources */,
 				864E5FC02AC4A577008F462D /* RoyaleConnectApp.swift in Sources */,
+				864C4C962AC696010091F7D2 /* SettingsView.swift in Sources */,
 				864C4C722AC5ABB80091F7D2 /* ProfileView.swift in Sources */,
 				864C4C742AC5AD1A0091F7D2 /* ClanStats.swift in Sources */,
 			);
@@ -450,6 +461,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 864C4C7B2AC5E8B50091F7D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		864C4C8F2AC6466A0091F7D2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 864C4C7B2AC5E8B50091F7D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
