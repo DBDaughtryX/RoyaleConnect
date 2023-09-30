@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863FE62A2AC79E21005B7F8D /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FE6292AC79E21005B7F8D /* AboutMeView.swift */; };
+		863FE62C2AC79E2F005B7F8D /* LeaveReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FE62B2AC79E2F005B7F8D /* LeaveReviewView.swift */; };
+		863FE62E2AC79E94005B7F8D /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FE62D2AC79E94005B7F8D /* TermsOfServiceView.swift */; };
+		863FE6302AC7A449005B7F8D /* EditUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FE62F2AC7A449005B7F8D /* EditUserNameView.swift */; };
+		863FE6322AC7A9B8005B7F8D /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FE6312AC7A9B8005B7F8D /* MainPage.swift */; };
+		863FE6342AC7B7F0005B7F8D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FE6332AC7B7F0005B7F8D /* InfoView.swift */; };
 		864C4C6A2AC4E6890091F7D2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C692AC4E6890091F7D2 /* SignUpView.swift */; };
 		864C4C6E2AC5AB010091F7D2 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C6D2AC5AB010091F7D2 /* ChatRoomView.swift */; };
 		864C4C702AC5AB9E0091F7D2 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C6F2AC5AB9E0091F7D2 /* FriendListView.swift */; };
 		864C4C722AC5ABB80091F7D2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C712AC5ABB80091F7D2 /* ProfileView.swift */; };
 		864C4C742AC5AD1A0091F7D2 /* ClanStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C732AC5AD1A0091F7D2 /* ClanStats.swift */; };
-		864C4C762AC5B1300091F7D2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C4C752AC5B12F0091F7D2 /* ImagePicker.swift */; };
 		864C4C7A2AC5E8370091F7D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 864C4C792AC5E8360091F7D2 /* GoogleService-Info.plist */; };
 		864C4C7D2AC5E8B50091F7D2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 864C4C7C2AC5E8B50091F7D2 /* FirebaseAnalytics */; };
 		864C4C802AC5F71B0091F7D2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 864C4C7F2AC5F71B0091F7D2 /* FirebaseAnalyticsSwift */; };
@@ -32,12 +37,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		863FE6292AC79E21005B7F8D /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		863FE62B2AC79E2F005B7F8D /* LeaveReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveReviewView.swift; sourceTree = "<group>"; };
+		863FE62D2AC79E94005B7F8D /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		863FE62F2AC7A449005B7F8D /* EditUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserNameView.swift; sourceTree = "<group>"; };
+		863FE6312AC7A9B8005B7F8D /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		863FE6332AC7B7F0005B7F8D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		864C4C692AC4E6890091F7D2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		864C4C6D2AC5AB010091F7D2 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
 		864C4C6F2AC5AB9E0091F7D2 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
 		864C4C712AC5ABB80091F7D2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		864C4C732AC5AD1A0091F7D2 /* ClanStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanStats.swift; sourceTree = "<group>"; };
-		864C4C752AC5B12F0091F7D2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		864C4C792AC5E8360091F7D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		864C4C892AC6058C0091F7D2 /* Lobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lobby.swift; sourceTree = "<group>"; };
 		864C4C8B2AC615F40091F7D2 /* ProfileBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBackground.swift; sourceTree = "<group>"; };
@@ -96,14 +106,19 @@
 			isa = PBXGroup;
 			children = (
 				864E5FBF2AC4A577008F462D /* RoyaleConnectApp.swift */,
-				864C4C712AC5ABB80091F7D2 /* ProfileView.swift */,
 				864C4C8B2AC615F40091F7D2 /* ProfileBackground.swift */,
 				864E5FC12AC4A577008F462D /* ContentView.swift */,
+				863FE6312AC7A9B8005B7F8D /* MainPage.swift */,
 				864C4C732AC5AD1A0091F7D2 /* ClanStats.swift */,
 				864C4C892AC6058C0091F7D2 /* Lobby.swift */,
+				864C4C712AC5ABB80091F7D2 /* ProfileView.swift */,
+				863FE6292AC79E21005B7F8D /* AboutMeView.swift */,
+				863FE6332AC7B7F0005B7F8D /* InfoView.swift */,
+				863FE62F2AC7A449005B7F8D /* EditUserNameView.swift */,
 				864C4C912AC673C60091F7D2 /* UserData.swift */,
+				863FE62B2AC79E2F005B7F8D /* LeaveReviewView.swift */,
+				863FE62D2AC79E94005B7F8D /* TermsOfServiceView.swift */,
 				864C4C952AC696010091F7D2 /* SettingsView.swift */,
-				864C4C752AC5B12F0091F7D2 /* ImagePicker.swift */,
 				864C4C6F2AC5AB9E0091F7D2 /* FriendListView.swift */,
 				864C4C692AC4E6890091F7D2 /* SignUpView.swift */,
 				864C4C6D2AC5AB010091F7D2 /* ChatRoomView.swift */,
@@ -207,15 +222,20 @@
 			files = (
 				864E5FC22AC4A577008F462D /* ContentView.swift in Sources */,
 				864C4C6A2AC4E6890091F7D2 /* SignUpView.swift in Sources */,
+				863FE6302AC7A449005B7F8D /* EditUserNameView.swift in Sources */,
+				863FE62C2AC79E2F005B7F8D /* LeaveReviewView.swift in Sources */,
 				864C4C702AC5AB9E0091F7D2 /* FriendListView.swift in Sources */,
 				864C4C8C2AC615F40091F7D2 /* ProfileBackground.swift in Sources */,
-				864C4C762AC5B1300091F7D2 /* ImagePicker.swift in Sources */,
+				863FE62E2AC79E94005B7F8D /* TermsOfServiceView.swift in Sources */,
 				864C4C922AC673C70091F7D2 /* UserData.swift in Sources */,
+				863FE62A2AC79E21005B7F8D /* AboutMeView.swift in Sources */,
+				863FE6322AC7A9B8005B7F8D /* MainPage.swift in Sources */,
 				864C4C6E2AC5AB010091F7D2 /* ChatRoomView.swift in Sources */,
 				864C4C8A2AC6058C0091F7D2 /* Lobby.swift in Sources */,
 				864E5FC02AC4A577008F462D /* RoyaleConnectApp.swift in Sources */,
 				864C4C962AC696010091F7D2 /* SettingsView.swift in Sources */,
 				864C4C722AC5ABB80091F7D2 /* ProfileView.swift in Sources */,
+				863FE6342AC7B7F0005B7F8D /* InfoView.swift in Sources */,
 				864C4C742AC5AD1A0091F7D2 /* ClanStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
